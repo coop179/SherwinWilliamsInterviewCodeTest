@@ -1,4 +1,4 @@
-Welcome to the Sherwin-Williams Code Test
+Sherwin-Williams Code Test
 ==========================================
 
 In order to more accurately gauge your abilities, we'd like you to convert the attached .psd file into a functional web page. Here are some key points we'll be looking out for in your finished product:
