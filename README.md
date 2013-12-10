@@ -6,8 +6,10 @@ In order to more accurately gauge your abilities, we'd like you to convert the a
 * Semantic markup that looks good even without CSS applied
 * Use of HTML5 elements where appropriate
 * Use of CSS 3 properties and advanced selectors where appropriate, keeping in mind how the page will display in older browsers
-* Use of jQuery to provide interactivity , again keeping in mind how the page will appear to those without JavaScript enabled (plugins are NOT permitted)
+* Use of jQuery to provide interactivity, again keeping in mind how the page will appear to those without JavaScript enabled (plugins are NOT permitted)
 * Use of web fonts for the tab and title text throughout the page (the web font you select does not need to be a perfect match, just try to get it close)
+
+Please try not to spend more than a max of 8 hours completing this task. 
 
 At the end of your allotted time, please ~~compress your working files and send them back to us at dowellmc@gmail.com~~ update your fork with your finished code and notify us. We'd prefer if you were able to host the site for us to view as well, but we understand that not everyone has web hosting available to them.
 
