@@ -1,0 +1,282 @@
+/*	CSS Styles	*/
+
+/*	Resets from Eric Meyer */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5em;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+	background: url("../img/bg_Body.jpg") 0 0 #fff;
+}
+header {
+	background: url("../img/bg_Header.jpg") repeat-x 0 0 #000;
+	height: 120px;
+	position: relative;
+}
+header nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+header nav a {
+	cursor: pointer;
+}
+#utilMenu li {
+	float: left;
+	padding: 5px 10px;
+	font: "Tahoma", sans-serif;
+	color: #fff;
+	font-size: .7em;
+}
+#utilMenu input {
+	background: url("../img/icn_Search.gif") top right no-repeat #fff;
+}
+header h1 {
+	padding: 30px 0 0 0;
+	font: 4.5em "Varela Round", sans-serif bold;
+	color: #fff;
+}
+header h1 em {
+	color: #1da7dd;
+}
+header h1 img {
+	padding-right: 10px;
+}
+.container {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+#mainNav {
+	height: 67px;
+}
+#mainNav ul {
+	height: 33px;
+	padding: 7px 0 0 0;
+}
+#mainNav ul li {
+	float: left;
+	cursor: pointer;
+		
+}
+#mainNav ul li a {
+	padding: 8px 14px;
+	min-width: 60px;
+	font-size: 18px;
+	color: #1da7dd;
+	font-family: "Varela Round", sans-serif;
+	font-weight: bold;
+}
+#mainNav ul li a.active,
+#mainNav ul li a:hover {
+	background: #2d2d2d;
+	-webkit-border-bottom-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-moz-border-radius-bottomleft: 7px;
+	border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	color: #fff;
+}
+#mainContent {
+	float: left;
+	width: 600px;
+	padding-bottom: 75px;
+}
+#mainContent h1 {
+	font-size: 2.0em;
+	font-family: "Varela Round", sans-serif;
+}
+#mainContent h3 {
+	font-size: 1.15em;
+	color: #1da7dd;
+	margin-bottom: 20px;
+	font-family: "Varela Round", sans-serif;
+}
+#mainContent p {
+	font: 1em/1.5em "Tahoma", serif;
+	margin-bottom: 10px;
+}
+#mainSection .msArticle {
+	background: #fff;
+}
+#mainSection .msArticle h1 {
+	font: "Tahoma", sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	color: #fff;
+	background: #2d2d2d;
+	padding: 5px 14px;
+	cursor: pointer;
+	position: relative;
+}
+#mainSection .msArticle h1.first {
+	-webkit-border-top-right-radius: 5px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+#mainSection .msArticle span.handle {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0px;
+	background: #CCC;
+	height: 34px;
+	width: 34px;
+	color: #333;
+	font-size: 30px;
+	line-height: 34px;
+	text-align: center;
+}
+#mainSection .msArticle h1.first .handle {
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+	color: #1da7dd;
+	line-height: 30px;
+}
+#mainSection .msArticle p {
+	padding: 40px 20px;
+	font-size: .9em;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 0;
+}
+#mainSection .msArticle img {
+	float: right;
+	width: 200px;
+	padding: 10px;
+}
+#rtSidebar {
+	float: left;
+	width: 320px;
+	margin: 0 0 0 20px;
+}
+#rtArticles {
+	background: #999;
+	border: 1px solid #2d2d2d;
+	border-top: 3px solid #2d2d2d;
+	border-radius: 5px;
+	padding: 20px;
+}
+#rtArticles article {
+	border-radius: 200px;
+	-webkit-box-shadow:  0px 0px 75px rgba(100, 100, 100, 0.15);
+	-moz-box-shadow:  0px 0px 75px rgba(100, 100, 100, 0.15);
+	box-shadow:  0px 0px 75px rgba(100, 100, 100, 0.15);
+}
+#rtArticles h1 {
+	font-size: 1.5em;
+	padding-bottom: .5em;
+	position: relative;
+}
+#rtArticles span.badge {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0;
+	padding: 3px;
+	color: #fff;
+	background: #1da7dd;
+	font-family: "Varela Round", sans-serif;
+	font-size: 15px;
+	line-height: 15px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+}
+#rtArticles p {
+	font-size: .9em;
+	color: #fff;
+	padding-bottom: 20px;
+}
+.hrule {
+	height: 1px;
+	width: 80%;
+	margin: 10px auto 20px auto;
+	text-align: center;
+	border: 1px solid #999;
+	background: #666;
+}
+footer {
+	clear: both;
+	background: url("../img/bg_Footer.jpg");
+	height: 190px;
+	padding-top: 30px;
+	font-size: .8em;
+
+}
+footer p {
+	float: left;
+	width: 30%;
+	font: "Tahoma", sans-serif;
+}
+footer nav {
+	float: left;
+	width: 70%;
+	text-align: right;
+	font: "Tahoma", sans-serif;
+}
+footer nav a {
+	cursor: pointer;
+}
